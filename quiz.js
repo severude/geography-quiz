@@ -1,11 +1,11 @@
 /*
-   Advanced geography challenge
+   Advanced Geography Challenge
    All rights reserved
 */
 
 // Warn the victim
 var numCorrect = 0;
-alert('Prepare to be tested with an advanced geography challenge.  You have been warned!');
+alert('Prepare to be tested with an Advanced Geography Challenge.  You have been warned!');
 
 //question number 1
 q1 = prompt("Which is larger: '1' the lower 48 contiguous United States or '2' Antartica?");
