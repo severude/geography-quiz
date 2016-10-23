@@ -8,8 +8,28 @@
 <body>
   <div class="container">
    <h1>Advanced Geography Challenge</h1>
-   <p id="results"></p>
-   <script src="quiz.js"></script> 
+
+   <div id="intro">
+	  <h3>Prepare to be tested with an Advanced Geography Challenge.  You have been warned!</h3>
+	  <button id="btn">Continue...</button>
+	</div>
+	  
+ 	<div id="quiz">
+        <h2 id="question" class=""></h2>
+
+        <p id="choice0"></p>
+		<button id="guess0" class="">Select Answer</button>
+
+        <p id="choice1"></p>
+		<button id="guess1" class="">Select Answer</button>
+
+        <footer>
+            <p id="progress">Question x of y</p>
+        </footer>
+	 </div>
+	  
+    <script src="quiz.js"></script> 
+    <script src="app.js"></script> 
   </div>
 </body>
 </html>
